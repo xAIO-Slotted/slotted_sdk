@@ -41,7 +41,7 @@ function vec3:rotated(angle) end
 ---@return vec3
 function vec3:extend(to, distance) end
 
----@return vec3
+---@return vec2 | nil
 function vec3:to_screen() end
 
 ---@return vec2 | nil
