@@ -1,8 +1,10 @@
+--[[
+[View Documentation](https://slotted.cc/docs/structs/vec3)
+]]
 ---@class vec3
 ---@field public x number
 ---@field public y number
 ---@field public z number
-
 local vec3 = {}
 
 ---@return number
@@ -44,6 +46,12 @@ function vec3:to_screen() end
 
 ---@return vec2 | nil
 function vec3:to_minimap() end
+
+---@param x number
+---@param y number
+---@param z number
+---@return vec3
+function vec3:new(x, y, z) end
 
 ---@type vec3
 _G.vec3 = {}
