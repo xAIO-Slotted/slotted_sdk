@@ -39,3 +39,13 @@ luac.out
 *.x86_64
 *.hex
 
+.idea/misc.xml
+.idea/slotted_sdk.iml
+.idea/modules.xml
+.idea/vcs.xml
+slotted_sdk.iml
+*.xml
+*.iml
+slotted_sdk.iml
+slotted_sdk.iml
+*.iml

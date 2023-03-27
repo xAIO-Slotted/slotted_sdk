@@ -19,4 +19,4 @@ local c_buff = {}
 function c_buff:get_amount() end
 
 ---@type c_buff
-_G.buff = {}
+_G.c_buff = {}

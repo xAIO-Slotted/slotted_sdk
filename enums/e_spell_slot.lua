@@ -13,37 +13,7 @@
 ---@field public Item6 number
 ---@field public item7 number
 ---@field public recall number
-local e_spell_slot = {
-    q = 0,
-    w = 1,
-    e = 2,
-    r = 3,
-    d = 4,
-    f = 5,
-    item1 = 6,
-    item2 = 7,
-    item3 = 8,
-    item4 = 9,
-    item5 = 10,
-    item6 = 11,
-    item7 = 12,
-    recall = 13,
-}
+local e_spell_slot = {}
 
 ---@type e_spell_slot
-_G.e_spell_slot = {
-    q = 0,
-    w = 1,
-    e = 2,
-    r = 3,
-    d = 4,
-    f = 5,
-    item1 = 6,
-    item2 = 7,
-    item3 = 8,
-    item4 = 9,
-    item5 = 10,
-    item6 = 11,
-    item7 = 12,
-    recall = 13,
- }
+_G.e_spell_slot = {}
