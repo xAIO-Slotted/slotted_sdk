@@ -41,6 +41,3 @@ function c_module:get_slot_e() end
 
 ---@return c_spell_slot
 function c_module:get_slot_r() end
-
----@type c_module
-_G.c_module = {}

@@ -21,6 +21,3 @@ function config_var_t:set_float(value) end
 ---@param value boolean
 ---@return void
 function config_var_t:set_bool(value) end
-
----@type config_var_t
-_G.config_var_t = {}

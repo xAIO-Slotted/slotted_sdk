@@ -11,5 +11,10 @@ function vec2:length() end
 ---@return number
 function vec2:dist_to(other) end
 
+---@param x number
+---@param y number
+---@return vec2
+function vec2:new(x, y) end
+
 ---@type vec2
 _G.vec2 = {}

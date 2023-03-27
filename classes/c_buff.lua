@@ -17,6 +17,3 @@ local c_buff = {}
 
 ---@return number
 function c_buff:get_amount() end
-
----@type c_buff
-_G.c_buff = {}
