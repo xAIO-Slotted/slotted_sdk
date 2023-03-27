@@ -22,6 +22,3 @@ function c_spell_slot:get_name() end
 
 ---@return boolean
 function c_spell_slot:is_ready() end
-
----@type c_spell_slot
-_G.c_spell_slot = {}

@@ -23,7 +23,3 @@ function c_window:is_opened() end
 ---@param position vec2
 ---@return void
 function c_window:set_position(position) end
-
-
----@type c_window
-_G.c_window = {}
